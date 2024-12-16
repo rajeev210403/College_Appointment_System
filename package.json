@@ -1,0 +1,9 @@
+{
+  "name": "college-appointment-system",
+  "private": true,
+  "scripts": {
+    "start": "python run.py",
+    "test": "python -m pytest tests/test_e2e.py -v",
+    "postinstall": "python -m pip install -r requirements.txt"
+  }
+}
